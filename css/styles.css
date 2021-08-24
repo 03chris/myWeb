@@ -283,21 +283,19 @@ body.dark {
   padding-top: 150px;
 }
 .contact .footer_container {
-  max-width: 100px;
-  margin-left: 100px;
+  text-align: left;
+  margin: 0 8%;
   margin-bottom: 200px;
   font-family: "Monument";
 }
-.contact .footer_container a {
+.contact .footer_container div a {
+  line-height: 50px;
   text-decoration: none;
   color: var(--color-primary);
-  font-size: 38px;
+  font-size: 42px;
 }
 .contact .footer_container .linkedin:hover {
   color: #0a66c2;
-}
-.contact .footer_container .instagram:hover {
-  color: #ff8562;
 }
 .contact .footer_container .github:hover {
   color: #949494;
@@ -332,8 +330,8 @@ body.dark {
     top: 92%;
   }
 
-  .contact .footer_container a {
-    font-size: 30px;
+  .contact .footer_container div a {
+    font-size: 42px;
   }
   .contact h1 {
     font-size: 100px;
@@ -434,13 +432,7 @@ body.dark {
   }
 
   .contact .footer_container {
-    margin-bottom: 100px;
-    text-align: center;
-    margin-left: 0;
-    max-width: 100%;
-  }
-  .contact .footer_container a {
-    font-size: 25px;
+    margin-bottom: 150px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -470,10 +462,6 @@ body.dark {
   .btnTheme span {
     font-size: 13px;
   }
-
-  .contact .footer_container a {
-    font-size: 25px;
-  }
 }
 @media screen and (max-width: 600px) {
   .home_container .home_presentation {
@@ -491,10 +479,6 @@ body.dark {
 
   .btnTheme {
     top: 92%;
-  }
-
-  .contact .footer_container a {
-    font-size: 22px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -526,13 +510,7 @@ body.dark {
   }
 
   .contact .footer_container {
-    margin-left: 10%;
-    text-align: start;
-    max-width: 100px;
-    margin-bottom: 100px;
-  }
-  .contact .footer_container a {
-    font-size: 25px;
+    text-align: right;
   }
 }
 @media screen and (max-width: 400px) {
@@ -556,9 +534,6 @@ body.dark {
     font-size: 12px;
   }
 
-  .contact .footer_container a {
-    font-size: 20px;
-  }
   .contact h1 {
     font-size: 60px;
   }
@@ -589,8 +564,8 @@ body.dark {
     font-size: 10px;
   }
 
-  .contact .footer_container {
-    margin-bottom: 80px;
+  .contact .footer_container div a {
+    font-size: 30px;
   }
   .contact h1 {
     font-size: 40px;
@@ -622,11 +597,8 @@ body.dark {
     font-size: 8px;
   }
 
-  .contact .footer_container {
-    margin-bottom: 50px;
-  }
-  .contact .footer_container a {
-    font-size: 15px;
+  .contact .footer_container div a {
+    font-size: 23px;
   }
   .contact h1 {
     font-size: 20px;
